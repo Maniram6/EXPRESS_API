@@ -1,14 +1,13 @@
-var mysql = require('mysql');
+// const mysql = require('mysql');
 
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "system",
-  password: "dbms123"
-});
 
-// con.connect(function(err) {
-//   if (err) throw err;
-//   console.log("Connected!");
+// // This was used for AWS RDS db before
+// const connection_string = mysql.createConnection({
+//   host: "mrmsqldb.cb6uog446py4.us-east-1.rds.amazonaws.com",
+//   port: "3306",
+//   user: "admin",
+//   password: "XXXXXXX",
+//   // database: "sample_db" ,
 // });
 
-module.exports = con;
+// module.exports = connection_string;
